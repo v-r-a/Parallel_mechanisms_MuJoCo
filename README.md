@@ -4,11 +4,13 @@ This is envisioned to be a resource of curated parallel mechanisms for MuJoCo, s
 
 Contributors may follow model organization and documentation conventions similar to [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie). Someday, we could merge this repository in to MuJoCo Menagerie!
 
+MuJoCo's [soft constraint model](https://mujoco.readthedocs.io/en/latest/computation/index.html#constraint-model) may not be the best to analyse parallel mechanisms at the moment, but could be useful some day. 
+
 ## Mechanisms
 
 | Manipulator | Basic model | Refined model |
 | --- | :---: | :---: |
-| Planar_4bar | ✓ | — |
+| Planar_4bar | — | — |
 | Planar_5bar | ✓ | — |
 | Planar_3RRR | — | — |
 | 3RPS | — | — |
@@ -16,7 +18,6 @@ Contributors may follow model organization and documentation conventions similar
 | 6SPU | — | — |
 | 6RSS | — | — |
 | Spherical_3RRR | — | — |
-| Spherical_2RR_agile_eye | — | — |
 
 ✓ = available; — = not yet available.
 
