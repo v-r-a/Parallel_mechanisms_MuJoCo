@@ -1,6 +1,6 @@
 # parallel_mechnisms_mujoco
 
-This is envisioned to be a resource of curated parallel mechanisms for MuJoCo, supporting the study of their kinematics, dynamics, and control. Contributions of models, improvements, and examples are welcome.
+This is envisioned to be a resource of curated parallel mechanisms for MuJoCo, supporting the study of their kinematics, dynamics, and control. Contributions of models, improvements, and examples are welcome. Submit contributions through a pull request with a short description of the change and the checks performed. For substantial additions, opening an issue first is encouraged.
 
 Contributors may follow model organization and documentation conventions similar to [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie). Someday, we could merge this repository in to MuJoCo Menagerie!
 
@@ -47,16 +47,14 @@ Keep the mechanism reusable by placing environmental objects in `scene.xml`.
 
 Contributions of new mechanisms, corrections, refined models, and documentation are welcome. Please follow these guidelines:
 
-1. **Describe the mechanism.** State its topology, mechanism DOF, actuated and passive joints, dimensions, joint limits, and coordinate conventions. Distinguish mechanism mobility from the number of joint coordinates in the XML.
-2. **Explain loop closure.** Identify where the kinematic tree is cut and which equality constraints close each loop. Document the intended assembly mode and known singular configurations.
-3. **Provide a valid starting configuration.** Include a usable initial pose and, where appropriate, a named keyframe. Explain how to initialize or reset the model.
-4. **Document physical assumptions.** Use SI units and identify the sources of masses, inertias, geometry, and actuator parameters. Clearly label assumed values and any damping or armature introduced for numerical stability.
+1. **Describe the mechanism.** State its topology, mechanism DOF, actuated and passive joints, dimensions, joint limits, and coordinate conventions.
+2. **Explain loop closure.** Identify where the kinematic tree is cut and which equality constraints close each loop. Document the intended assembly mode.
+3. **Provide a valid starting configuration.** Include a usable initial pose and, where appropriate, a named keyframe.
+4. **Document physical assumptions.** Use SI units wherever possible and identify the sources of masses, inertias, geometry, and actuator parameters. Clearly label assumed values and any damping or armature introduced for numerical stability.
 5. **Keep XML readable.** Use descriptive names, two-space indentation, default classes for repeated properties, and relative asset paths. Separate visual and collision geometry where useful.
-6. **Check behavior before contributing.** Verify that the scene loads and runs without numerical warnings for a stated test duration. Exercise a representative motion and report loop-closure error, timestep, solver settings, and any observed limitations. Automated checks are encouraged as the collection grows.
+6. **Check behavior before contributing.** Verify that the scene loads and runs without numerical warnings. Exercise a representative motion and report loop-closure error, timestep, solver settings, and any observed limitations.
 7. **Make results reproducible.** Include the commands or scripts needed to reproduce the demonstration or validation, together with the tested MuJoCo version. Add a preview image when possible.
 8. **Credit sources.** Cite relevant papers, CAD sources, and original authors. Preserve third-party license notices and document any model-specific licensing terms.
-
-Submit contributions through a pull request with a short description of the change and the checks performed. For substantial additions, opening an issue first is encouraged.
 
 ## License
 
