@@ -4,17 +4,21 @@ This is envisioned to be a central repository of curated parallel mechanisms for
 
 ## Mechanisms
 
-- `Planar_4bar/`
-- `Planar_5bar/`
-- `Planar_3RRR/`
-- `3RPS/`
-- `3RRR/`
-- `6SPU/`
-- `6RSS/`
-- `Spherical_3RRR/`
-- `Spherical_2RR_agile_eye/`
+| Manipulator | Basic model | Refined model |
+| --- | :---: | :---: |
+| Planar_4bar | ✓ | — |
+| Planar_5bar | ✓ | — |
+| Planar_3RRR | — | — |
+| 3RPS | — | — |
+| 3RRR | — | — |
+| 6SPU | — | — |
+| 6RSS | — | — |
+| Spherical_3RRR | — | — |
+| Spherical_2RR_agile_eye | — | — |
 
-The mechanism folders currently contain only empty `.gitkeep` placeholders so Git can preserve the directory structure. Remove these placeholders when adding models.
+✓ = available; — = not yet available.
+
+Empty folders use `.gitkeep` placeholders so Git can preserve the directory structure. Remove these placeholders when adding models.
 
 ## Contributions
 
