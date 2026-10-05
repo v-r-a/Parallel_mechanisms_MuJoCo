@@ -1,4 +1,4 @@
-# parallel_mechnisms_mujoco
+# A collection of XML models of parallel mechanisms in MuJoCo
 
 This is envisioned to be a resource of curated parallel mechanisms for MuJoCo, supporting the study of their kinematics, dynamics, and control. Contributions of models, improvements, and examples are welcome. Submit contributions through a pull request with a short description of the change and the checks performed. For substantial additions, opening an issue first is encouraged.
 
