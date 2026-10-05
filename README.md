@@ -1,6 +1,8 @@
 # A collection of XML models of parallel mechanisms in MuJoCo
 
-This is envisioned to be a resource of curated parallel mechanisms for MuJoCo, supporting the study of their kinematics, dynamics, and control. Contributions of models, improvements, and examples are welcome. Submit contributions through a pull request with a short description of the change and the checks performed. For substantial additions, opening an issue first is encouraged.
+This is envisioned to be a resource of curated parallel mechanisms for MuJoCo, supporting the study of their kinematics, dynamics, and control. **Contributions of models, improvements, and examples are welcome!** Submit contributions through a pull request with a short description of the change and the checks performed. For substantial additions, opening an issue first is encouraged.
+
+There are already a huge number of URDF files of parallel mechanisms on the internet. Adapting them to MuJoCo's format via [simulate](https://mujoco.readthedocs.io/en/latest/programming/samples.html#sasimulate) utility is pretty easy. One could define [constaints](https://mujoco.readthedocs.io/en/latest/XMLreference.html#equality) from that point. 
 
 Contributors may follow model organization and documentation conventions similar to [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie). Someday, we could merge this repository in to MuJoCo Menagerie!
 
