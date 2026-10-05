@@ -56,8 +56,3 @@ Contributions of new mechanisms, corrections, refined models, and documentation 
 7. **Make results reproducible.** Include the commands or scripts needed to reproduce the demonstration or validation, together with the tested MuJoCo version. Add a preview image when possible.
 8. **Credit sources.** Cite relevant papers, CAD sources, and original authors. Preserve third-party license notices and document any model-specific licensing terms.
 
-## License
-
-MIT License. See [LICENSE](LICENSE).
-
-Copyright (c) 2026 Vyankatesh Ashtekar
