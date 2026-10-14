@@ -10,6 +10,8 @@ MuJoCo's [soft constraint model](https://mujoco.readthedocs.io/en/latest/computa
 
 ## Mechanisms
 
+Most of the following models are available [here](https://github.com/v-r-a/mujoco/tree/equality_constraint_trial_byagent/build-general) in this exprerimental fork of MuJoCo. One would have to build the [branch](https://github.com/v-r-a/mujoco/tree/equality_constraint_trial_byagent) from source, or just drag and drop the files in the prebuilt `simulate`utlity on a Linux OS.
+
 | Manipulator | Basic model | Refined model |
 | --- | :---: | :---: |
 | Planar_4bar | — | — |
